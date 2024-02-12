@@ -1,0 +1,117 @@
+.top{
+    background-image: url("https://img.freepik.com/free-vector/abstract-premium-black-gold-geometric-background_1017-24783.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.input{
+   width: 40%;
+    border-radius: 50px;
+    background: transparent;
+    color: gold;
+    border-color: rgb(172, 149, 17);
+    border: 1px solid gold;
+    font-style: italic;   
+    margin: 1%; 
+   }
+   .datainput2{
+    border-radius: 50px;
+    background-color: rgba(255, 217, 0, 0.676);
+    border: 1px solid gold;
+   }
+   .datainput2:hover{
+    background-color: rgba(115, 99, 7, 0.288);
+    color: gold;  
+   }
+   .input:hover{
+    box-shadow: 0 0 10px rgb(234, 255, 0);
+    color: gold; 
+    
+   }
+   .text{
+    color: gold;
+    padding: 1%;
+   }
+   .text2{
+    color: gold;
+    padding: 1%;
+   }
+.text2:hover{
+    color: rgb(119, 145, 41);
+   }
+.heading{
+    animation: slideIn 5s ;
+    color: wheat;
+    font-size: 200%;
+    text-shadow: 0 0 10px rgb(234, 255, 0);    
+    }
+    @keyframes slideIn{
+        0%{transform: translateX(-50%);}
+        50%{transform: translateX(0);}
+        
+    }
+    .heading1{
+      color: rgb(130, 123, 110);
+     text-shadow: 0 0 10px rgb(234, 255, 0);    
+      }
+   .input2{
+    background: transparent;
+    color: gold;
+    border-color: gold;    
+   }
+   .input2:hover{
+    box-shadow: 0 0 10px rgb(234, 255, 0);
+   }
+  .btn{
+    background-color: rgba(255, 217, 0, 0.738);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 18px;    
+    border-radius: 20px;
+    cursor: pointer;
+   opacity: 0.6;
+    box-shadow: 0 0 10px gold;
+  }
+  .btn:hover{
+    transition: background-color 3s;
+    background-color: rgba(221, 189, 5, 0.488);
+    box-shadow: 0 0 10px rgb(234, 255, 0);
+    box-shadow: 0 0 20px gold;
+  }
+ 
+.form{ 
+  padding: 60px;
+}
+@media(max-width:1020px){
+.input{
+   width: 90%;
+   margin: 3%; 
+   }
+   .top{
+    background-size:contain;  
+} 
+ .mid{
+  width: 100%;
+  height: 500px;
+}
+
+.heading{
+  font-size: 100%;
+}
+.heading1{
+  font-size: 100%;
+}
+.nameHead{
+  font-size: small
+}
+.headeName{
+ font-size: small;
+}
+}
+.nameHead{
+  animation: slideIn 5s ;
+  color:rgb(190, 161, 1);
+}
+.headeName{
+  color: rgba(255, 217, 0, 0.461);
+}
